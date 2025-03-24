@@ -37,6 +37,8 @@ on:
         default: OpenWrt-OPKG-TR3000.config
         type: choice
         options: 
+          - tr3000_1.config
+          - tr3000_2.config
           - OpenWrt-OPKG-TR3000.config
           - OpenWrt-R2100.config
           - OpenWrt-RM2100.config
